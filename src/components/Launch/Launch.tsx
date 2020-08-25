@@ -1,6 +1,5 @@
 import React from 'react';
 import {LaunchesQuery} from '../../generated/graphql';
-import './style.css'
 
 export interface OwnProps {
     handleIdChange: (newId: number) => void;
